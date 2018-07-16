@@ -1,3 +1,3 @@
-# OpenCart Language PL
+# Helm charts
 
-> Documentation: https://opencart.design4.io/language-pl
+> Documentation: https://development.design4.io/charts
