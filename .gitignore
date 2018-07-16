@@ -1,0 +1,15 @@
+build
+dist
+site
+public
+
+# IDE
+.idea
+.vscode
+
+# Node
+node_modules
+
+# Only apps should have lockfiles
+yarn.lock
+package-lock.json

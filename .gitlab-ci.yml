@@ -1,0 +1,19 @@
+image: python:alpine
+
+before_script:
+  - pip install mkdocs
+  - pip install mkdocs-material
+  - pip install markdown==2.6.7
+  - pip install markdown-include
+  - pip install pygments
+  - pip install pymdown-extensions
+
+pages:
+  script:
+  - mkdocs build
+  - mv site public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

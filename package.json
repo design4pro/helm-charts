@@ -1,0 +1,43 @@
+{
+  "name": "@design4pro/development-charts",
+  "version": "1.0.0.0",
+  "description": "Helm charts",
+  "link": "https://development.design4.io/charts",
+  "scripts": {
+    "docs:lint": "markdownlint --config .markdownlint.json **/*.md",
+    "docs:serve": "mkdocs serve",
+    "release": "release-me --release-count=0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "commitizen": "^2.10.1",
+    "cz-release-me": "^1.6.1",
+    "markdownlint-cli": "^0.11.0",
+    "release-me": "^1.4.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-release-me"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.design4.io/development/charts.git"
+  },
+  "keywords": [
+    "kubernetes",
+    "helm",
+    "charts"
+  ],
+  "author": {
+    "name": "Rafał Wolak",
+    "email": "r.wolak@design4.pro",
+    "url": "https://www.design4.pro"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.design4.io/development/charts/issues",
+    "email": "incoming+development/charts@gitlab.design4.io"
+  },
+  "homepage": "https://development.design4.io/charts"
+}
