@@ -19,14 +19,14 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: OpenCart Language PL
-site_description: "Language files for OpenCart"
+site_name: Helm charts
+site_description: "Helm charts"
 site_author: DESIGN4PRO
-site_url: https://opencart.design4.io/language-pl
+site_url: https://development.design4.io/charts
 
 # Repository
-repo_name: opencart/language-pl
-repo_url: https://gitlab.design4.io/opencart/language-pl
+repo_name: development/charts
+repo_url: https://gitlab.design4.io/development/charts
 edit_uri: ""
 
 # Copyright
@@ -54,8 +54,8 @@ theme:
     text: "Ubuntu"
     code: "Ubuntu Mono"
 #  favicon: assets/images/favicon.png
-  logo: "images/opencart-logo.svg"
-#    icon: "\uE80C"
+#  logo: "images/opencart-logo.svg"
+    icon: "\uE80C"
 
 # Customization
 extra:
@@ -63,7 +63,7 @@ extra:
     - type: globe
       link: https://design4.pro
     - type: gitlab
-      link: https://gitlab.design4.io/opencart/language-pl
+      link: https://gitlab.design4.io/development/charts
 #  disqus: ""
   search:
     language: "en"
@@ -108,5 +108,5 @@ markdown_extensions:
 # Page tree
 pages:
   - Start: index.md
-  - Instalacja:
-    - Krok po kroku: install.md
+  - Kubernates:
+    - Prerequisites: prerequisites.md

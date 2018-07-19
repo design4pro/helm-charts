@@ -1,6 +1,6 @@
 {
   "name": "@design4pro/development-charts",
-  "version": "1.0.0.0",
+  "version": "1.0.0",
   "description": "Helm charts",
   "link": "https://development.design4.io/charts",
   "scripts": {

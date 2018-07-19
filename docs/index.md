@@ -1,6 +1,4 @@
-title: OpenCart Language PL
-description: Pliki językowe dla OpenCart.
+title: Helm charts
+description: Helm charts.
 
-# OpenCart Language PL
-
-Paczka zawierająca polskie tłumaczenie części frontowej i panelu administracyjnego sklepu oraz podstawowych modułów płatności i dostawy.
+# Helm charts
